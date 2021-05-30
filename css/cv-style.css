@@ -14,15 +14,20 @@ pre {
 
 .main {
   width: 90%;
-  margin: 5%;
+  margin: 2% 5% 2% 5%;
   box-shadow: 0px 0px 5px 5px gray;
 }
 
 .intro {
-  border: 1px solid black;
   min-height: 350px;
   width: 100%;
   display: flex;
+}
+
+.social,
+.icon {
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .left-intro {
@@ -31,7 +36,7 @@ pre {
   display: flex;
   flex-direction: column;
   padding: 25px;
-  box-shadow: 0px 0px 5px 5px gray;
+  box-shadow: 5px 0 5px -2px gray;
 }
 
 .badges {
@@ -79,12 +84,16 @@ h5 {
   color: rgb(17 17 49);
 }
 
+.header h2 {
+  color: white;
+}
+
 .contact strong {
   color: white;
 }
 
 u {
-  color: coral;
+  color: #f14b0f;
 }
 
 @media only screen and (max-width: 600px) {
