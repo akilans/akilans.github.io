@@ -138,3 +138,48 @@ footer {
   align-items: center;
   margin: 20px;
 }
+
+.humburger {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .humburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  ul.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+h2,
+h4 {
+  color: rgb(17 17 49);
+}
+
+.line {
+  background-color: coral;
+  display: block;
+  width: 200px;
+  height: 3px;
+  text-align: center;
+}
+
+.cert-section .line {
+  margin: 5px auto;
+}
