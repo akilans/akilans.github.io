@@ -4,9 +4,31 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+}
+
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10px;
+  background-color: coral;
+  border-radius: 5px;
+}
+
+.progress_y {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  background-color: coral;
+  border-radius: 5px;
 }
 
 .hero {
@@ -19,14 +41,16 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  flex: 1;
 }
 
 nav ul {
   display: flex;
   list-style: none;
   width: 500px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-size: 25px;
+  flex: 2;
 }
 
 nav li {
