@@ -84,8 +84,17 @@ h5 {
   color: rgb(17 17 49);
 }
 
-.header h2 {
+.header h2,
+h4 {
   color: white;
+}
+
+.header h2 {
+  text-align: center;
+}
+
+.header h4 {
+  text-align: left;
 }
 
 .contact strong {
