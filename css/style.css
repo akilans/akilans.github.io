@@ -108,23 +108,23 @@ h1 {
   box-shadow: 0 0 8px 8px grey;
 }
 
-.cert-section {
+.cert-section, .badge-section {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.certifications {
+.certifications, .badges {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 80px;
   flex-wrap: wrap;
 }
-.certifications h4 {
+.certifications h4, .badges h4 {
   font-weight: 500;
 }
-.cert {
+.cert, .badge {
   width: 300px;
   height: 250px;
   box-shadow: 0 0 8px 8px grey;
@@ -135,7 +135,7 @@ h1 {
   margin: 6px;
 }
 
-.cert img{
+.cert img, .badge img{
   width: 100px;
   height: 100px;
   object-fit: cover;
@@ -215,7 +215,7 @@ h4 {
   text-align: center;
 }
 
-.cert-section .line {
+.cert-section .line,  .badge-section .line{
   margin: 5px auto;
 }
 
