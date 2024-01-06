@@ -135,6 +135,12 @@ h1 {
   margin: 6px;
 }
 
+.cert img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
 .verify-button {
   height: 45px;
   width: 100px;

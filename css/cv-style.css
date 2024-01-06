@@ -105,6 +105,19 @@ u {
   color: #f14b0f;
 }
 
+.cert-images img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+
+.badges-logo img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 600px) {
   .header {
     flex-wrap: wrap;
